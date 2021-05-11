@@ -2,13 +2,16 @@
     padding: 0px;
     margin: 0px;
 }
+html{
+    overflow-x: hidden;
+}
 body{
     display: block;
     width: 100%;
     height: auto;
     box-sizing: border-box;
-    overflow-x: hidden;
     overflow-y: auto;
+    overflow-x: hidden;
     font-weight: 500;
     font-style: normal;
     font-family: sans-serif;
@@ -48,7 +51,7 @@ span,i{
 }
 /*****start-main-coding*****/
 
-/******* banner-top-menu-area*****/
+****** banner-top-menu-area****
 .banner-top-area{
     display: block;
     width: 100%;
@@ -180,8 +183,8 @@ span,i{
     clip-path: polygon(35% 0, 100% 0%, 100% 100%, 9% 100%, 0% 50%);
     shape-outside:  polygon(35% 0, 100% 0%, 100% 100%, 9% 100%, 0% 50%);
 
-}
-/** led By Department **/
+}**/
+/** shop By Department **/
 .section-1{
     display: block;
     width: 100%;
@@ -231,7 +234,6 @@ span,i{
     grid-template-rows: auto;
     grid-gap: 15px 15px;
 }
-/** led by department product details **/
 
 .section1-content{
     display: block;
@@ -512,6 +514,7 @@ span,i{
     width: 100%;
     height: auto;
     margin-bottom: 10vh;
+    overflow: hidden;
 }
 .section4-menu{
     display: block;
@@ -569,6 +572,7 @@ span,i{
     width: 100%;
     height: auto;
     box-sizing: border-box;
+    overflow: hidden;
 }
 .section5-main{
     display: grid;
