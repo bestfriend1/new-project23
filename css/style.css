@@ -2,9 +2,7 @@
     padding: 0px;
     margin: 0px;
 }
-html{
-    overflow-x: hidden;
-}
+
 body{
     display: block;
     width: 100%;
@@ -514,7 +512,7 @@ span,i{
     width: 100%;
     height: auto;
     margin-bottom: 10vh;
-    overflow: hidden;
+    box-sizing: border-box;
 }
 .section4-menu{
     display: block;
@@ -572,7 +570,7 @@ span,i{
     width: 100%;
     height: auto;
     box-sizing: border-box;
-    overflow: hidden;
+
 }
 .section5-main{
     display: grid;
@@ -580,6 +578,7 @@ span,i{
     grid-template-rows: auto;
     grid-gap: 20px 20px;
     margin-bottom: 10vh;
+    box-sizing: border-box;
 
 }
 
