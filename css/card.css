@@ -197,3 +197,184 @@
     opacity: 1;
 }
 /***.deal-product-details-end***/
+/** card-code-area ***/
+.card{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+.card-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 220px;
+    position: relative;
+    z-index: 10;
+    border-right: 1px solid #e0e0e0;
+    margin-bottom: 50px;
+  
+}
+.card-img img{
+    max-height: 200px;
+    height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+.card-hover-img{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 11;
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(0);
+    transform-origin: center center;
+    transition: all 0.3s linear;
+}
+.card:hover .card-hover-img{
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+}
+.discount{
+    position: absolute;
+    left: 0px;
+    top: -20px;
+    display: inline-block;
+    color: #000;
+    font-weight: 400;
+    background-color: #fedf41;
+    padding:1px 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 14px;
+    z-index: 12;
+}
+.card-body{
+    display: block;
+    width: 85%;
+    margin: auto;
+}
+.card-rating{
+    display: block;
+    margin-bottom: 10px;
+}
+.card-rating ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.card-rating ul li{
+    display: inline-block;
+    margin: 0px;
+    color: #cacaca;
+    font-style: normal;
+    font-family: 'Font Awesome 5 Free';
+    font-size: 12px;
+}
+.card-link a{
+    color: #848484;
+    font-weight: 400;
+    font-family: 'Poppins',sans-serif;
+    font-size: 16px;
+    display: block;
+    line-height: 28px;
+    margin-bottom: 25px;
+    transition: all 0.3s linear;
+}
+.card-link a:hover{
+    color: #2457AA;
+}
+.price-icon{
+    position: relative;
+    z-index: 15;
+    
+}
+.card-price{
+    display: block;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    transition: 0.1s;
+}
+.main-price{
+    color: #2457AA;
+    font-size: 20px;
+    font-family: 'Poppins',sans-serif;
+    display: block;
+    font-weight: 500;
+  
+}
+.main-price span{
+    color: #2457AA;
+    font-weight: 400;
+    font-size: 15px;
+}
+.save{
+    color: #8a8787;
+    font-size: 16px;
+    display: inline-block;
+    font-weight: 400;
+    font-family: 'Poppins',sans-serif;
+    margin-left: 10px;
+}
+
+.card-icon-menu{
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s linear;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 16;
+}
+.card-icon-menu ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.card-icon-menu ul li{
+    display: inline-block;
+    margin-right: 0px;
+}
+.card-icon-menu ul li:last-child{
+    margin: 0px;
+}
+.card-icon-menu ul li a{
+    width: 35px;
+    height: 35px;
+    background-color: #2457AA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: #fff;
+    font-style: normal;
+    font-family: 'Poppins',sans-serif;
+    font-size: 17px;
+    transition: all 0.3s linear;
+}
+.card-icon-menu ul li a:hover{
+    background-color: #c10e0e;
+}
+.card:hover .card-icon-menu{
+    visibility: visible;
+    opacity: 1;
+}
+.card:hover .card-price{
+    visibility: hidden;
+}
+.d-inline{
+    display: inline-block;
+}

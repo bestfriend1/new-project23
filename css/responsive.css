@@ -34,7 +34,7 @@
         height: 100%;
     }
 }
-/** Shop By Department **/
+/** led By Department **/
 @media(max-width:430px){
     .section1-top{
         text-align: center;
@@ -155,5 +155,101 @@
     }
     .dealOnPlay-exchange h4{
         font-size: 14px;
+    }
+}
+
+/**** section-4-responsive ***/
+@media(max-width:1000px){
+   
+    .section4-cards{
+        width: 100%;
+    }
+}
+@media(max-width:991px){
+    .section4-cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .section4-cards .card:nth-child(2) .card-img{
+        border:none;
+    }
+}
+@media(max-width:470px){
+    .section4-cards{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .section4-cards .card .card-img{
+        border:none;
+    }
+    .card{
+        text-align: center;
+    }
+    .card-icon-menu{
+        position: relative;
+        visibility: visible!important;
+        opacity: 1!important;
+    }
+    .card-price{
+        display: block!important;
+    }
+    .card-icon-menu ul li a{
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+    }
+    .section4-menu{
+        padding-bottom: 3vh;
+    }
+    .section4-menu ul li{
+        margin-left: 5px;
+    }
+    .section4-menu ul li a{
+        font-size: 16px;
+    }
+    .card-img{
+        border: none;
+        height: 200px;
+    }
+    .card-img img{
+        max-height: 180px;
+    }
+}
+
+/**section5-area **/
+@media(max-width:1050px){
+    .section5-main{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media(max-width:850px){
+    .section5-main{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media(max-width:550px){
+    .section5-main{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .section5-main .card .card-price{
+        visibility: visible!important;
+    }
+    .section5-main .card{
+        text-align: center;
+    }
+    .electronic-device,.electronic-device1,.electronic-device2{
+        width: 80%;
+        margin: auto;
+        height:400px;
+    }
+    .section5-main .card .card-icon-menu{
+        position: static;
+        visibility: visible;
+        opacity: 1;
+    }
+}
+@media(max-width:400px){
+    .electronic-device,.electronic-device1,.electronic-device2{
+        width: 95%;
+        padding: 30px;
+        height: 400px;
     }
 }
