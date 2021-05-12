@@ -197,13 +197,17 @@
     opacity: 1;
 }
 /***.deal-product-details-end***/
+
+
+
 /** card-code-area ***/
 .card{
     display: block;
     width: 100%;
     height: auto;
-    padding: 20px;
+    padding: 20px 0px;
     box-sizing: border-box;
+    margin-bottom: 10px;
 }
 .card-img{
     display: flex;
@@ -263,7 +267,7 @@
 }
 .card-body{
     display: block;
-    width: 85%;
+    width: 92%;
     margin: auto;
 }
 .card-rating{
@@ -289,7 +293,7 @@
     font-family: 'Poppins',sans-serif;
     font-size: 16px;
     display: block;
-    line-height: 28px;
+    line-height: 25px;
     margin-bottom: 25px;
     transition: all 0.3s linear;
 }
